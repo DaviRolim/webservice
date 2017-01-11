@@ -14,6 +14,8 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
+
 import com.amazingd.domain.Address;
 import com.amazingd.domain.Usuario;
 import com.amazingd.service.UsuarioService;
